@@ -1,0 +1,35 @@
+.portfolio {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.filters div {
+  display: flex;
+  width: max-content;
+  margin-right: 0.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.filters div:last-child {
+  margin-right: 0;
+}
+
+.active {
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+}
